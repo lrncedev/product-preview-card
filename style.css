@@ -116,11 +116,16 @@ body {
   color: var(--clr-neutral-100);
 }
 
+.cta:hover, .cta:active {
+background-color: var(--clr-primary-900);
+
+}
 .attribution {
   display: none;
   padding: 1rem;
   font-size: 1rem;
   text-align: center;
+  font-family: var(--ff-primary-100);
 }
 
 .attribution a {
@@ -153,6 +158,7 @@ body {
     padding: .5rem 1rem;
   }
   .attribution {
+    font-size: 1.5rem;
     display: block;
   }
 }
